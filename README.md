@@ -33,7 +33,7 @@ Features
 - 支持[多线程](#Threads)处理快速扫描
 - 支持自定义UA，不设置的话默认使用随机UA
 - 支持自定义Cookie
-- 支持类似于[dirsearch](#Reference & Appreciation)一样的自定义后缀名并自动加入扫描[wordlists](#wordlists).
+- 支持类似于dirsearch一样的自定义后缀名并自动加入扫描[wordlists](#wordlists).
 - 支持[智能扫描](#SmartScan)
 
 Options
@@ -98,7 +98,7 @@ python3 dirsearch.py -u https://target -e php,html,js -d /usr/lib/wordlist
 ```
 
 ### Threads
-关于多线程，[实际上](#Some thoughts)在测试的时候多线程并不能提供我们速度上显著的帮助，默认20即可
+关于多线程，实际上在测试的时候多线程并不能提供我们速度上显著的帮助，默认20即可
 
 > 如果自定义线程的话，建议不要设置得太大。
 
