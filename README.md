@@ -33,11 +33,7 @@ Features
 - 支持[多线程](#Threads)处理快速扫描
 - 支持自定义UA，不设置的话默认使用随机UA
 - 支持自定义Cookie
-<<<<<<< HEAD
 - 支持类似于dirsearch一样的自定义后缀名并自动加入扫描[wordlists](#wordlists).
-=======
-- 支持类似于dirsearch一样的自定义后缀名并自动加入扫描[wordlists](#wordlists).
->>>>>>> 34f354fecdcb20318b6b3e3b814532e115680e9f
 - 支持[智能扫描](#SmartScan)
 
 Options
